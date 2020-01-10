@@ -31,8 +31,8 @@ sensor:
 | ---- | ---- | ------- | -----------
 | email | string | **Required** | email address
 | password | string | **Required** | email password
-| imap_server | string | **Optional** | `imap.gmail.com`  IMAP server address>
-| imap_port | number | **Optional** | `993` IMAP port
+| smtp_server | string | **Optional** | `imap.gmail.com`  IMAP server address>
+| smpt_port | number | **Optional** | `993` IMAP port
 | folder | string | **Optional** | `INBOX` Which folder to pull emails from
 | show_all | boolean | **Optional** | `false` Show only unseen emails (default) or all emails from `folder`
 
