@@ -48,6 +48,8 @@ parsers = [
     (ATTR_GOOGLE_EXPRESS, EMAIL_DOMAIN_GOOGLE_EXPRESS, parse_google_express),
     (ATTR_WESTERN_DIGITAL, EMAIL_DOMAIN_WESTERN_DIGITAL, parse_western_digital),
     (ATTR_MONOPRICE, EMAIL_DOMAIN_MONOPRICE, parse_monoprice),
+    (ATTR_AMAZONFR, EMAIL_DOMAIN_AMAZONFR, parse_amazonfr),
+    (ATTR_CHRONOPOST, EMAIL_DOMAIN_CHRONOPOST, parse_chronopost),
 ]
 
 _LOGGER = logging.getLogger(__name__)
