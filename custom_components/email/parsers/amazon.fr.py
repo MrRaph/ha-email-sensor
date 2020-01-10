@@ -6,11 +6,11 @@ from ..const import EMAIL_ATTR_FROM, EMAIL_ATTR_BODY
 
 
 _LOGGER = logging.getLogger(__name__)
-EMAIL_DOMAIN_DHL = 'amazon.fr'
-ATTR_DHL = 'amazonfr'
+EMAIL_DOMAIN_AMAZONFR = 'amazon.fr'
+ATTR_AMAZONFR = 'amazonfr'
 
 
-def parse_dhl(email):
+def parse_amazonfr(email):
     """Parse Amazon FR tracking numbers."""
     tracking_numbers = []
 

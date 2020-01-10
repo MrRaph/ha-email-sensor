@@ -6,11 +6,11 @@ from ..const import EMAIL_ATTR_FROM, EMAIL_ATTR_BODY
 
 
 _LOGGER = logging.getLogger(__name__)
-EMAIL_DOMAIN_UPS = 'chronopost.fr'
-ATTR_UPS = 'chronopost'
+EMAIL_DOMAIN_CHRONOPOST = 'chronopost.fr'
+ATTR_CHRONOPOST = 'chronopost'
 
 
-def parse_ups(email):
+def parse_chronopost(email):
     """Parse chronopost tracking numbers."""
     tracking_numbers = []
 

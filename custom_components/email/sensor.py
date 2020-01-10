@@ -30,6 +30,8 @@ from .parsers.hue import ATTR_HUE, EMAIL_DOMAIN_HUE, parse_hue
 from .parsers.google_express import ATTR_GOOGLE_EXPRESS, EMAIL_DOMAIN_GOOGLE_EXPRESS, parse_google_express
 from .parsers.western_digital import ATTR_WESTERN_DIGITAL, EMAIL_DOMAIN_WESTERN_DIGITAL, parse_western_digital
 from .parsers.monoprice import ATTR_MONOPRICE, EMAIL_DOMAIN_MONOPRICE, parse_monoprice
+from .parsers.amazonfr import ATTR_AMAZONFR, EMAIL_DOMAIN_AMAZONFR, parse_amazonfr
+from .parsers.chronopost import ATTR_CHRONOPOST, EMAIL_DOMAIN_CHRONOPOST, parse_chronopost
 
 parsers = [
     (ATTR_UPS, EMAIL_DOMAIN_UPS, parse_ups),
